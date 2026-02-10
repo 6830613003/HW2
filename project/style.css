@@ -1,0 +1,152 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+}
+img 
+{
+  width: 340px;  
+  height: 120px; 
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    border: 0.3px solid rgb(158, 158, 158);
+    border-radius: 2em;
+    padding: 0.8em;
+    margin-top: 1em;
+    margin-left: 550px;
+    margin-right: 550px;
+    justify-content: flex-end;
+    gap: 1px;
+}
+.img2
+{
+  width: 30px;  
+  height: 30px; 
+}
+.img3
+{
+  width: 40px;  
+  height: 40px; 
+}
+.img4
+{
+  width: 35px;  
+  height: 30px; 
+}
+header
+{
+    display: flex;
+    gap: 0.5em;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255); 
+}
+main
+{
+    margin-top: 13em;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);        
+}
+li:first-child 
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+dl
+{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    font-size: 15px;
+}
+.border
+{
+    border: 0.3px solid rgb(245, 243, 243);
+    background: rgb(245, 243, 243);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 7px;
+}
+.center
+{
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+    font-size: 15px;
+}
+.blue
+{
+    color: blue;
+}
+footer
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    border: 2px solid rgb(207, 207, 207);
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding: 10px;
+    margin-top: 15.4em;
+    background: rgb(207, 207, 207);
+}
+.fat
+{
+    flex-basis: 100%;
+    border: 2px solid rgb(207, 207, 207);
+}
+.normal
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(207, 207, 207);
+    align-self: flex-start;
+}
+.anotherf
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    border: 2px solid rgb(207, 207, 207);
+    flex-direction: row;
+    padding-left: 1em;
+    padding-right: 1em;
+    gap: 1em;
+    padding: 10px;
+    background: rgb(207, 207, 207);
+}
+div:nth-child(4)
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.line
+{
+    width: 100%;
+    border: 1px solid black;
+}
+.line_close
+{
+    position: absolute;
+    bottom: 50px;
+    left: 2px;
+    width: 99.9%;
+    height: 1px;
+    background: hsl(0, 21%, 39%);
+}
+
+
+
